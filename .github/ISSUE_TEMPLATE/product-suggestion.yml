@@ -34,6 +34,15 @@ body:
       required: true
 
   - type: textarea
+    id: benefit_and_priority
+    attributes:
+      label: Benefit and priority rationale
+      description: Why should this suggestion be prioritized, and how will it benefit people who may use it?
+      placeholder: Explain who benefits, what value this adds, and why it should receive attention over other suggestions.
+    validations:
+      required: true
+
+  - type: textarea
     id: references
     attributes:
       label: Reference material (optional)

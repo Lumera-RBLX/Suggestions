@@ -14,6 +14,7 @@ Use issues in this repository to propose:
    - Your suggestion
    - Whether it is a **new product** or an **update**
    - What the product (or update) should do
+   - Why it should be prioritized and how it benefits users
    - Any relevant reference material (optional)
 
 Clear, detailed suggestions help Lumera evaluate and prioritize ideas faster.

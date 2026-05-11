@@ -17,4 +17,7 @@ Use issues in this repository to propose:
    - Why it should be prioritized and how it benefits users
    - Any relevant reference material (optional)
 
-Clear, detailed suggestions help Lumera evaluate and prioritize ideas faster.
+We ask that you please provide clear, detailed suggestions help Lumera evaluate and prioritize ideas faster.
+Troll suggestions will be denied automatically.
+
+To submit suggestions to this repository easier, the Lumera Suggestions bot is available in our Discord guild.

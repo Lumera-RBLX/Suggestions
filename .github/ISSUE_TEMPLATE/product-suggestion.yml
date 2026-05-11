@@ -1,0 +1,52 @@
+name: Product Suggestion
+description: Suggest a new Lumera product or an update to an existing product.
+title: "[Suggestion]: "
+labels:
+  - suggestion
+body:
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggestion
+      description: What are you suggesting?
+      placeholder: Describe your idea clearly.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: suggestion_type
+    attributes:
+      label: Suggestion Type
+      description: Is this a new product or an update to an existing product?
+      options:
+        - New product
+        - Update to existing product
+    validations:
+      required: true
+
+  - type: textarea
+    id: product_behavior
+    attributes:
+      label: What should the product do?
+      description: Describe the product behavior, features, or expected outcome.
+      placeholder: Explain functionality, user impact, and goals.
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefit_and_priority
+    attributes:
+      label: Benefit and priority rationale
+      description: Why should this suggestion be prioritized, and how will it benefit people who may use it?
+      placeholder: Explain who benefits, what value this adds, and why it should receive attention over other suggestions.
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Reference material (optional)
+      description: Share links, docs, screenshots, or examples that support your suggestion.
+      placeholder: https://...
+    validations:
+      required: false
